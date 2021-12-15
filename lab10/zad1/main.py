@@ -19,3 +19,14 @@ class Note:
 
     def getNote(self):
         return self.note
+
+# dict = {"spr" + str(k):v for k in range(2, 7) for v in range(10, 20)}
+
+# def makedict(size):
+#     dict = {}
+#     for k in range(1, size):
+#         dict["spr" + str(k)] = rd.randint(2, 6)
+#
+#     print(dict, round(sum(dict.values())/ len(dict.values()), 2))
+#
+# makedict(100)
